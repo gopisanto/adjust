@@ -4,7 +4,6 @@
   "description": "Adjust code test",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --presets es2015 src/main.js -o build/main.bundle.js",
     "build": "rm -rf build && webpack",
     "start": "webpack-dev-server",
     "test": "jest"
